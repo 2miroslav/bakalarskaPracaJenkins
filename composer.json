@@ -1,7 +1,7 @@
 {
   "autoload":{
     "psr-4":{
-      "BakalarskaPraca\\PHPUnit\\Controler\\Calculator\\": "src/controler/calculator",
+      "BakalarskaPraca\\PHPUnit\\Controler\\Calculator\\": "src/controler/calculator/",
       "BakalarskaPraca\\PHPUnit\\Controler\\Calculator\\Tests\\": "tests/"
     }
   },
