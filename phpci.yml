@@ -1,13 +1,11 @@
 build_settings:
-  clone_depth:
-  ignore:
-  - "vendor"
+  clone_depth: 1
   
-  setup:
+setup:
     composer:
       action: "install"
       
-  test:
-    php_unit:
-        config:
-          - "phpunit.xml"
+test:
+ php_unit:
+  config:
+    - "phpunit.xml"
